@@ -5,7 +5,7 @@ metadata:
 spec:
   volumes:
   - name: host-volume
-    persistentVolumeClaim
+    persistentVolumeClaim:
       claimName: pvc-hostpath
   containers:
   - image: busybox
